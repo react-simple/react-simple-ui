@@ -1,5 +1,5 @@
 import { HTMLAttributes } from 'react';
-import { isPrimitiveType, isFunction, isEmptyObject, isArray, isString } from "@react-simple/react-simple-util";
+import { isValueType, isFunction, isEmptyObject, isArray, isString } from "@react-simple/react-simple-util";
 import { Cluster, Stack } from 'layout/Flex';
 
 export interface ObjectRendererProps extends HTMLAttributes<HTMLDivElement> {
@@ -23,7 +23,7 @@ const renderContent = (
 	else if (isString(obj)) {
 		return `"${obj}"`;
 	}
-	else if (isPrimitiveType(obj)) {
+	else if (isValueType(obj)) {
 		return obj.toString();
 	}
 	else if (isFunction(obj)) {

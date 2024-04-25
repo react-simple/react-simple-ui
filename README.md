@@ -38,3 +38,9 @@ Flex layout components.
 - **Flex**: Renders children into an HTML flex layout. Simplifies the usage of some parameters (direction, gap, nowrap, distributeEvenly)
 - **Stack**: Special case of the flex layout when items are rendered into a column below each other.
 - **Cluster**: Special case of the flex layout when items are rendered into a row next to each other.
+
+# Links
+
+- How to Set Up Rollup to Run React?: https://www.codeguage.com/blog/setup-rollup-for-react
+- Storybook with absolute paths: https://stackoverflow.com/questions/51771077/storybook-with-absolute-paths
+- Storybook Canvas: 'ReferenceError: react is not defined': https://stackoverflow.com/questions/74995855/storybook-canvas-referenceerror-react-is-not-defined
