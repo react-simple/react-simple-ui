@@ -1,5 +1,6 @@
 # React Simple! UI Library
-Basic user interface hooks/components for React application development.
+Basic user interface components for React application development.
+
 Uses **styled-components** and **storybook** to review the components.
 
 # Usage
