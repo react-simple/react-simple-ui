@@ -1,3 +1,4 @@
+import * as React from "react";
 import { CSSProperties, HTMLAttributes } from "react";
 import { styled } from "styled-components";
 import { REACT_SIMPLE_UI } from "data";

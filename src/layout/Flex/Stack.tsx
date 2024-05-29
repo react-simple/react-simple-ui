@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Flex, FlexProps } from "./Flex";
 
 export type StackProps = Omit<FlexProps, "direction">;

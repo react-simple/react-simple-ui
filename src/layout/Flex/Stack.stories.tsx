@@ -1,3 +1,4 @@
+import * as React from "react";
 import type { Meta } from '@storybook/react';
 import { StorybookComponent, range } from '@react-simple/react-simple-util';
 import { Stack, StackProps } from './Stack';

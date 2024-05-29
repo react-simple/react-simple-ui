@@ -1,3 +1,4 @@
+import * as React from "react";
 import type { Meta } from '@storybook/react';
 import { ObjectRenderer, ObjectRendererProps } from './ObjectRenderer';
 import { StorybookComponent } from '@react-simple/react-simple-util';
